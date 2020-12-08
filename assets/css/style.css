@@ -624,7 +624,8 @@ section {
 
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    width: 80%;
+    color: #444 !important;
   }
 }
 
@@ -1838,3 +1839,14 @@ color: white;
   height: 62px;
   width: 62px;
 } 
+
+.us-text{
+  color: whitesmoke !important;
+  margin-bottom: 15px;
+}
+.initial-text{
+  color: whitesmoke !important;
+  text-align: center !important;
+  background: #82302B;
+  font-size: larger;
+}
