@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #222222;
+  color: gainsboro !important;
 }
 
 .mobile-nav {
@@ -562,7 +562,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    background-position: center;
   }
   #hero h1 {
     font-size: 28px;
@@ -575,6 +578,26 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .btn-get-started, #hero .btn-watch-video {
     font-size: 13px;
+  }
+  #header{
+    padding: 0px !important;
+  }
+
+  .icon-box{
+    width: 100% !important;
+  }
+
+  .social-links-m {
+    right: 55px;
+    z-index: 1000;
+    position: fixed;
+    top: 15px;
+  }
+  .social-links-m a {
+    margin-right: 15px;
+    color: gainsboro !important;
+    font-weight: 400;
+    font-size: larger;
   }
 }
 
