@@ -91,7 +91,7 @@
     $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
     $('body').prepend('<div class="social-links-m">'
         +'<a href="https://www.facebook.com/MexicoMagicoMariachi/" class="facebook" target="_blank"><i class="icofont-facebook"></i></a>'
-        +'<a href="#" class="instagram"><i class="icofont-instagram"></i></a>'
+        +'<a href="https://www.instagram.com/mariachimexmagic/" class="instagram"><i class="icofont-instagram"></i></a>'
         +'<a href="https://wa.me/525514007435/?text=Me+interesa+sus+servicios+esta+disponible" target="_blank" class="whatsapp"><i class="icofont-whatsapp"></i></a>'
         +'<a href="tel:5514007435"><i class="icofont-phone"></i></a>'
         +'</div>')
