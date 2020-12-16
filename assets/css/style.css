@@ -205,8 +205,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  height: 80px;
-  width: 120px;
+  height: 100px;
+  width: 160px;
 }
 
 @media (max-width: 992px) {
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #82302B;
+  background-color: #DEAA1D;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #82302B;
+  color: #DEAA1D;
 }
 
 .nav-menu .drop-down ul {
@@ -717,17 +717,20 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services {
-  background: silver;
+  background: #FFF;
 }
 .featured-services .icon-box {
-  color: white;
+  color: black;
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #000;
+  background: #FFF;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   z-index: 1;
+  width: 100%;
+  border: 3px solid #DEAA1D; 
+  height: 350px !important;
 }
 div.icon{
   display: flex;
@@ -1106,7 +1109,7 @@ color: white;
 # Portfolio
 --------------------------------------------------------------*/
 #portfolio{
-  background: #c0c0c0;
+  background: #FFF;
 }
 .portfolio #portfolio-flters {
   padding: 0;

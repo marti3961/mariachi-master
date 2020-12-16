@@ -104,16 +104,16 @@
     this_form.find('.error-message').slideUp();
     this_form.find('.loading').slideDown();
 
-    if ( $(this).data('recaptcha-site-key') ) {
-      var recaptcha_site_key = $(this).data('recaptcha-site-key');
-      grecaptcha.ready(function() {
-        grecaptcha.execute(recaptcha_site_key, {action: 'php_email_form_submit'}).then(function(token) {
-          php_email_form_submit(this_form,action,this_form.serialize() + '&recaptcha-response=' + token);
-        });
-      });
-    } else {
-      php_email_form_submit(this_form,action,this_form.serialize());
-    }
+    // if ( $(this).data('recaptcha-site-key') ) {
+    //   var recaptcha_site_key = $(this).data('recaptcha-site-key');
+    //   grecaptcha.ready(function() {
+    //     grecaptcha.execute(recaptcha_site_key, {action: 'php_email_form_submit'}).then(function(token) {
+    //       php_email_form_submit(this_form,action,this_form.serialize() + '&recaptcha-response=' + token);
+    //     });
+    //   });
+    // } else {
+      php_email_form_submit(this_form,'forms/contacto.php',this_form.serialize());
+    //}
     
     return true;
   });
@@ -132,7 +132,7 @@
       } else {
         this_form.find('.loading').slideUp();
         if(!msg) {
-          msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
+          msg = 'No se pudo enviar el mensaje el servidor respondio lo siguiente: ' + action + '<br>';
         }
         this_form.find('.error-message').slideDown().html(msg);
       }
