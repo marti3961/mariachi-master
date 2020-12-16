@@ -599,6 +599,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-size: larger;
   }
+
+ 
+#header .logo img {
+    height: 80px;
+    width: 120px;
+}
 }
 
 @media (max-height: 500px) {
@@ -782,6 +788,7 @@ color: white;
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
