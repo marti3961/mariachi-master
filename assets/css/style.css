@@ -730,12 +730,12 @@ section {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #FFF;
+  background: #086a6e;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   z-index: 1;
   width: 100%;
-  border: 3px solid #DEAA1D; 
+  border: 3px solid #086a6e; 
   height: 350px !important;
 }
 div.icon{
@@ -758,7 +758,7 @@ color: white;
 }
 
 .featured-services .icon-box:hover::before {
-  background: #82302B;
+  background: #086a6e;
   top: 0;
   border-radius: 0px;
 }
@@ -778,6 +778,7 @@ color: white;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  text-align: center;
 }
 
 .featured-services .title a {
@@ -1480,12 +1481,12 @@ color: white;
 }
 
 .pricing .btn-buy:hover {
-  background: #82302B;
+  background: #086a6e;
 }
 
 .pricing .featured h3 {
   color: #fff;
-  background: #82302B;
+  background: #086a6e;
 }
 
 .pricing .advanced {
