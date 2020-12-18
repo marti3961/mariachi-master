@@ -753,15 +753,15 @@ div.icon{
   transition: all 0.3s;
   z-index: -1;
 }
-.featured-services .icon-box:hover li {
+/* .featured-services .icon-box:hover li {
 color: white;
-}
+} */
 
-.featured-services .icon-box:hover::before {
+/* .featured-services .icon-box:hover::before {
   background: #086a6e;
   top: 0;
   border-radius: 0px;
-}
+} */
 
 .featured-services .icon {
   margin-bottom: 15px;
